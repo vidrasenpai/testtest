@@ -21,13 +21,13 @@ OWNER_ID = int(os.environ.get("OWNER_ID", "1880970848"))
 OWNER = os.environ.get("OWNER", "Vidraplay")
 
 # CHANNEL & GROUP
-CHANNEL1 = os.environ.get("CHANNEL1", "paphuntergc")
-CHANNEL2 = os.environ.get("CHANNEL2", "Hv015")
-CHANNEL3 = os.environ.get("CHANNEL3", "")
-CHANNEL4 = os.environ.get("CHANNEL4", "")
+CHANNEL1 = os.environ.get("CHANNEL1", "")
+CHANNEL2 = os.environ.get("CHANNEL2", "")
+CHANNEL3 = os.environ.get("CHANNEL3", "paphuntergc")
+CHANNEL4 = os.environ.get("CHANNEL4", "Hv015")
 
 # Database
-DB_URI = os.environ.get("DATABASE_URL", "-1001559696086")
+DB_URI = os.environ.get("DATABASE_URL", "")
 
 # force sub channel id, if you want enable force sub
 FORCE_SUB_CHANNEL = int(os.environ.get("FORCE_SUB_CHANNEL", "-1001281312406"))
