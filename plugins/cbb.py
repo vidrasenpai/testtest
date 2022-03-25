@@ -12,7 +12,7 @@ async def cb_handler(client: Bot, query: CallbackQuery):
     data = query.data
     if data == "about":
         await query.message.edit_text(
-            text=f"• Owner: @{OWNER}\n• Channel 1: @{CHANNEL1}\n• Channel 2: @{CHANNEL2}\n• Channel 3: @{CHANNEL3}\n•Channel 4: @{CHANNEL4}\nㅤ",
+            text=f"• Owner: @{OWNER}\n• Channel 1: @{CHANNEL1}\n• Channel 2: @{CHANNEL2}\n• Channel 3: @{CHANNEL3}\n•Channel 4: @{CHANNEL4}\n • Re-Edit: @vidraplay</b>\n",
             disable_web_page_preview=True,
             reply_markup=InlineKeyboardMarkup(
                 [
