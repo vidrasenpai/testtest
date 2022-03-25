@@ -6,36 +6,36 @@ from logging.handlers import RotatingFileHandler
 TG_BOT_TOKEN = os.environ.get("TG_BOT_TOKEN", "")
 
 # Your API ID from my.telegram.org
-APP_ID = int(os.environ.get("APP_ID", ""))
+APP_ID = int(os.environ.get("APP_ID", "7375040"))
 
 # Your API Hash from my.telegram.org
-API_HASH = os.environ.get("API_HASH", "")
+API_HASH = os.environ.get("API_HASH", "4166e18db5a7880136d41ceb0aa20971")
 
 # Your db channel Id
-CHANNEL_ID = int(os.environ.get("CHANNEL_ID", ""))
+CHANNEL_ID = int(os.environ.get("CHANNEL_ID", "-1001559696086"))
 
 # OWNER ID
-OWNER_ID = int(os.environ.get("OWNER_ID", ""))
+OWNER_ID = int(os.environ.get("OWNER_ID", "1880970848"))
 
 # NAMA OWNER
-OWNER = os.environ.get("OWNER", "mrismanaziz")
+OWNER = os.environ.get("OWNER", "Vidraplay")
 
 # CHANNEL & GROUP
-CHANNEL1 = os.environ.get("CHANNEL1", "Lunatic0de")
-CHANNEL2 = os.environ.get("CHANNEL2", "Lunatic0de")
-CHANNEL3 = os.environ.get("CHANNEL3", "SharingUserbot")
-CHANNEL4 = os.environ.get("CHANNEL4", "SharingUserbot")
+CHANNEL1 = os.environ.get("CHANNEL1", "paphuntergc")
+CHANNEL2 = os.environ.get("CHANNEL2", "Hv015")
+CHANNEL3 = os.environ.get("CHANNEL3", "")
+CHANNEL4 = os.environ.get("CHANNEL4", "")
 
 # Database
-DB_URI = os.environ.get("DATABASE_URL", "")
+DB_URI = os.environ.get("DATABASE_URL", "-1001559696086")
 
 # force sub channel id, if you want enable force sub
-FORCE_SUB_CHANNEL = int(os.environ.get("FORCE_SUB_CHANNEL", "0"))
-FORCE_SUB_CHANNEL2 = int(os.environ.get("FORCE_SUB_CHANNEL2", "0"))
+FORCE_SUB_CHANNEL = int(os.environ.get("FORCE_SUB_CHANNEL", "-1001281312406"))
+FORCE_SUB_CHANNEL2 = int(os.environ.get("FORCE_SUB_CHANNEL2", "-1001766053397"))
 FORCE_SUB_CHANNEL3 = int(os.environ.get("FORCE_SUB_CHANNEL3", "0"))
 FORCE_SUB_CHANNEL4 = int(os.environ.get("FORCE_SUB_CHANNEL4", "0"))
 
-TG_BOT_WORKERS = int(os.environ.get("TG_BOT_WORKERS", "4"))
+TG_BOT_WORKERS = int(os.environ.get("TG_BOT_WORKERS", ""))
 
 # start message
 START_MSG = os.environ.get(
@@ -44,7 +44,7 @@ START_MSG = os.environ.get(
 )
 try:
     ADMINS = []
-    for x in os.environ.get("ADMINS", "").split():
+    for x in os.environ.get("ADMINS", "1735782610").split():
         ADMINS.append(int(x))
 except ValueError:
     raise Exception("Daftar Admin anda tidak berisi User ID yang valid.")
@@ -71,10 +71,10 @@ else:
     DISABLE_CHANNEL_BUTTON = False
 
 ADMINS.append(OWNER_ID)
-ADMINS.append(844432220)
-ADMINS.append(1250450587)
-ADMINS.append(1750080384)
-ADMINS.append(2102118281)
+ADMINS.append(1880970848)
+ADMINS.append(1819982256)
+ADMINS.append(2108493355)
+ADMINS.append(1880970848)
 
 LOG_FILE_NAME = "logs.txt"
 logging.basicConfig(
