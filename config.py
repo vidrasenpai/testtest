@@ -35,7 +35,7 @@ FORCE_SUB_CHANNEL2 = int(os.environ.get("FORCE_SUB_CHANNEL2", "-1001766053397"))
 FORCE_SUB_CHANNEL3 = int(os.environ.get("FORCE_SUB_CHANNEL3", "0"))
 FORCE_SUB_CHANNEL4 = int(os.environ.get("FORCE_SUB_CHANNEL4", "0"))
 
-TG_BOT_WORKERS = int(os.environ.get("TG_BOT_WORKERS", ""))
+TG_BOT_WORKERS = int(os.environ.get("TG_BOT_WORKERS", "200"))
 
 # start message
 START_MSG = os.environ.get(
