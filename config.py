@@ -21,8 +21,8 @@ OWNER_ID = int(os.environ.get("OWNER_ID", "1880970848"))
 OWNER = os.environ.get("OWNER", "Vidraplay")
 
 # CHANNEL & GROUP
-CHANNEL1 = os.environ.get("CHANNEL1", "")
-CHANNEL2 = os.environ.get("CHANNEL2", "")
+CHANNEL1 = os.environ.get("CHANNEL1", "ometvhxh")
+CHANNEL2 = os.environ.get("CHANNEL2", "indonbest")
 CHANNEL3 = os.environ.get("CHANNEL3", "paphuntergc")
 CHANNEL4 = os.environ.get("CHANNEL4", "Hv015")
 
@@ -32,8 +32,8 @@ DB_URI = os.environ.get("DATABASE_URL", "")
 # force sub channel id, if you want enable force sub
 FORCE_SUB_CHANNEL = int(os.environ.get("FORCE_SUB_CHANNEL", "-1001281312406"))
 FORCE_SUB_CHANNEL2 = int(os.environ.get("FORCE_SUB_CHANNEL2", "-1001766053397"))
-FORCE_SUB_CHANNEL3 = int(os.environ.get("FORCE_SUB_CHANNEL3", "0"))
-FORCE_SUB_CHANNEL4 = int(os.environ.get("FORCE_SUB_CHANNEL4", "0"))
+FORCE_SUB_CHANNEL3 = int(os.environ.get("FORCE_SUB_CHANNEL3", "-1001585589164"))
+FORCE_SUB_CHANNEL4 = int(os.environ.get("FORCE_SUB_CHANNEL4", "-1001549982596"))
 
 TG_BOT_WORKERS = int(os.environ.get("TG_BOT_WORKERS", "200"))
 
