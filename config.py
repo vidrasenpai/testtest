@@ -3,7 +3,7 @@ import os
 from logging.handlers import RotatingFileHandler
 
 # Bot token @Botfather
-TG_BOT_TOKEN = os.environ.get("TG_BOT_TOKEN", "")
+TG_BOT_TOKEN = os.environ.get("TG_BOT_TOKEN", "5217057179:AAErwltKua9lIHsZF-2lRR_g_mY70farIUU")
 
 # Your API ID from my.telegram.org
 APP_ID = int(os.environ.get("APP_ID", "7375040"))
@@ -21,16 +21,16 @@ OWNER_ID = int(os.environ.get("OWNER_ID", "1880970848"))
 OWNER = os.environ.get("OWNER", "Vidraplay")
 
 # CHANNEL & GROUP
-CHANNEL1 = os.environ.get("CHANNEL1", "ometvhxh")
+CHANNEL1 = os.environ.get("CHANNEL1", "ometvhvh")
 CHANNEL2 = os.environ.get("CHANNEL2", "indonbest")
 CHANNEL3 = os.environ.get("CHANNEL3", "paphuntergc")
 CHANNEL4 = os.environ.get("CHANNEL4", "Hv015")
 
 # Database
-DB_URI = os.environ.get("DATABASE_URL", "")
+DB_URI = os.environ.get("DATABASE_URL", "postgres://wytbovwe:jHOgjPdAwro40CVslqV9Cwf_bVeLgW5w@satao.db.elephantsql.com/wytbovwe")
 
 # force sub channel id, if you want enable force sub
-FORCE_SUB_CHANNEL = int(os.environ.get("FORCE_SUB_CHANNEL", "-1001281312406"))
+FORCE_SUB_CHANNEL = int(os.environ.get("FORCE_SUB_CHANNEL", "-1001787258151"))
 FORCE_SUB_CHANNEL2 = int(os.environ.get("FORCE_SUB_CHANNEL2", "-1001766053397"))
 FORCE_SUB_CHANNEL3 = int(os.environ.get("FORCE_SUB_CHANNEL3", "-1001585589164"))
 FORCE_SUB_CHANNEL4 = int(os.environ.get("FORCE_SUB_CHANNEL4", "-1001549982596"))
