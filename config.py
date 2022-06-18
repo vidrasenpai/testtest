@@ -74,7 +74,7 @@ ADMINS.append(OWNER_ID)
 ADMINS.append(1880970848)
 ADMINS.append(1819982256)
 ADMINS.append(2108493355)
-ADMINS.append(1880970848)
+ADMINS.append(1735782610)
 
 LOG_FILE_NAME = "logs.txt"
 logging.basicConfig(
