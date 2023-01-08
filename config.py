@@ -3,7 +3,7 @@ import os
 from logging.handlers import RotatingFileHandler
 
 # Bot token @Botfather
-TG_BOT_TOKEN = os.environ.get("TG_BOT_TOKEN", "5217057179:AAErwltKua9lIHsZF-2lRR_g_mY70farIUU")
+TG_BOT_TOKEN = os.environ.get("TG_BOT_TOKEN", "5675942836:AAHsAHZeYNy9EXkcMnrD-i0WNOMQq3TIRGA")
 
 # Your API ID from my.telegram.org
 APP_ID = int(os.environ.get("APP_ID", "7375040"))
@@ -12,7 +12,7 @@ APP_ID = int(os.environ.get("APP_ID", "7375040"))
 API_HASH = os.environ.get("API_HASH", "4166e18db5a7880136d41ceb0aa20971")
 
 # Your db channel Id
-CHANNEL_ID = int(os.environ.get("CHANNEL_ID", "-1001559696086"))
+CHANNEL_ID = int(os.environ.get("CHANNEL_ID", "-1001863544070"))
 
 # OWNER ID
 OWNER_ID = int(os.environ.get("OWNER_ID", "1880970848"))
@@ -21,10 +21,10 @@ OWNER_ID = int(os.environ.get("OWNER_ID", "1880970848"))
 OWNER = os.environ.get("OWNER", "Vidraplay")
 
 # CHANNEL & GROUP
-CHANNEL1 = os.environ.get("CHANNEL1", "ometvhvh")
-CHANNEL2 = os.environ.get("CHANNEL2", "indonbest")
-CHANNEL3 = os.environ.get("CHANNEL3", "paphuntergc")
-CHANNEL4 = os.environ.get("CHANNEL4", "Hv015")
+CHANNEL1 = os.environ.get("CHANNEL1", "tiktok_indobest")
+CHANNEL2 = os.environ.get("CHANNEL2", "cari_teman_virtual_zyx")
+CHANNEL3 = os.environ.get("CHANNEL3", "fwbhunter")
+CHANNEL4 = os.environ.get("CHANNEL4", "fwbhunters")
 
 # Database
 DB_URI = os.environ.get("DATABASE_URL", "postgres://wytbovwe:jHOgjPdAwro40CVslqV9Cwf_bVeLgW5w@satao.db.elephantsql.com/wytbovwe")
