@@ -27,13 +27,13 @@ CHANNEL3 = os.environ.get("CHANNEL3", "fwbhunter")
 CHANNEL4 = os.environ.get("CHANNEL4", "fwbhunters")
 
 # Database
-DB_URI = os.environ.get("DATABASE_URL", "postgres://wytbovwe:jHOgjPdAwro40CVslqV9Cwf_bVeLgW5w@satao.db.elephantsql.com/wytbovwe")
+DB_URI = os.environ.get("DATABASE_URL", "postgres://ssygtqme:qzBUfpOHRLuvjXToezgp8l4xI-lA5HOt@satao.db.elephantsql.com/ssygtqme")
 
 # force sub channel id, if you want enable force sub
-FORCE_SUB_CHANNEL = int(os.environ.get("FORCE_SUB_CHANNEL", "-1001787258151"))
-FORCE_SUB_CHANNEL2 = int(os.environ.get("FORCE_SUB_CHANNEL2", "-1001766053397"))
-FORCE_SUB_CHANNEL3 = int(os.environ.get("FORCE_SUB_CHANNEL3", "-1001585589164"))
-FORCE_SUB_CHANNEL4 = int(os.environ.get("FORCE_SUB_CHANNEL4", "-1001549982596"))
+FORCE_SUB_CHANNEL = int(os.environ.get("FORCE_SUB_CHANNEL", "-1001766547367"))
+FORCE_SUB_CHANNEL2 = int(os.environ.get("FORCE_SUB_CHANNEL2", "-1001801099788"))
+FORCE_SUB_CHANNEL3 = int(os.environ.get("FORCE_SUB_CHANNEL3", "-1001849313202"))
+FORCE_SUB_CHANNEL4 = int(os.environ.get("FORCE_SUB_CHANNEL4", "-1001768600339"))
 
 TG_BOT_WORKERS = int(os.environ.get("TG_BOT_WORKERS", "200"))
 
@@ -44,7 +44,7 @@ START_MSG = os.environ.get(
 )
 try:
     ADMINS = []
-    for x in os.environ.get("ADMINS", "1735782610").split():
+    for x in os.environ.get("ADMINS", "5841494828").split():
         ADMINS.append(int(x))
 except ValueError:
     raise Exception("Daftar Admin anda tidak berisi User ID yang valid.")
@@ -72,7 +72,7 @@ else:
 
 ADMINS.append(OWNER_ID)
 ADMINS.append(1880970848)
-ADMINS.append(1819982256)
+ADMINS.append(5841494828)
 ADMINS.append(2108493355)
 ADMINS.append(1735782610)
 
